@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/slicknav.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/percepcion.css">
     <!-- <link rel="stylesheet" href="css/responsive.css"> -->
 </head>
 
@@ -46,22 +47,30 @@
                             </div>
                         </div>
                         <div class="col-xl-10 col-lg-10">
-                            <div class="main-menu  d-none d-lg-block">
+                            <div class="main-menu  d-none d-lg-block float-right">
                                 <nav>
                                     <ul id="navigation">
-                                        <li><a href="Courses.html">Arquitectura cognitiva</a></li>
-                                        <li><a href="#">Sensación <i class="ti-angle-down"></i></a>
+                                        <li><a href="arquitectura.html">Arquitectura cognitiva</a></li>
+                                        <li><a href="sensacion.html">Sensación <i class="ti-angle-down"></i></a>
                                             <ul class="submenu">
-                                                <li><a href="course_details.html">Sist. auditivo</a></li>
-                                                <li><a href="elements.html">Sist. visual</a></li>
+                                                <li><a href="sensacion.html#auditivo">Sist. auditivo</a></li>
+                                                <li><a href="sensacion.html#visual">Sist. visual</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="about.html">Percepción</a></li>
-                                        <li><a href="#">Memoria <i class="ti-angle-down"></i></a>
+                                        <li><a href="percepcion.html">Percepción <i class="ti-angle-down"></i></a>
                                             <ul class="submenu">
-                                                <li><a href="blog.html">Largo plazo</a></li>
-                                                <li><a href="single-blog.html">Operativa</a></li>
-                                                <li><a href="single-blog.html">Sensorial</a></li>
+                                                <li><a href="percepcion.html#organizacion-perceptual">Organización perceptual</a></li>
+                                                <li><a href="percepcion.html#profundidad">Profundidad</a></li>
+                                                <li><a href="percepcion.html#reconocimiento-de-objetos">Reconocimiento de objetos</a></li>
+                                                <li><a href="percepcion.html#atencion">Atención</a></li>
+                                                <li><a href="percepcion.html#acceso-al-conocimiento">Acceso al conocimiento</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="memoria.html">Memoria <i class="ti-angle-down"></i></a>
+                                            <ul class="submenu">
+                                                <li><a href="memoria.html#sensorial">Sensorial</a></li>
+                                                <li><a href="memoria.html#operativa">Operativa</a></li>
+                                                <li><a href="memoria.html#largo-plazo">Largo plazo</a></li>
                                             </ul>
                                         </li>
                                     </ul>
@@ -96,7 +105,7 @@
     <div class="courses_details_info">
         <div class="container">
             <div class="row">
-                <div class="col-xl-7 col-lg-7">
+                <div class="col-xl-8 col-lg-8">
                     <div class="single_courses">
                         <h3>Percepción</h3>
                         <p>Con Percepción nos referimos al proceso por el cual asignamos significado a los estímulos
@@ -108,81 +117,98 @@
                     </div>
                     <div class="outline_courses_info">
                         <div id="accordion">
-                            <div class="card">
-                                <div class="card-header" id="heading1">
-                                    <h5 class="mb-0">
-                                        <button class="btn btn-link collapsed" data-toggle="collapse"
-                                            data-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
-                                            <i class="flaticon-question"></i> Organización perceptual de objetos y
-                                            escenas
-                                        </button>
-                                    </h5>
-                                </div>
-                                <div id="collapse1" class="collapse" aria-labelledby="heading1"
-                                    data-parent="#accordion">
-                                    <div class="card-body">
-                                        Existe suficiente información acerca de los procesos psicológicos que subyacen a
-                                        la percepción organizada lo que nos aporta unas herramientas para decidir la
-                                        mejor distribución de los elementos de la interfaz. Es importante elegirla bien
-                                        ya que la primera percepción se mantiene en el tiempo.
 
-                                        Palmer y Rock proponen el modelo de la siguiente imagen.
-                                        <br> <br>
-                                        Como resultado de dicho proceso se obtiene una imagen donde se ha organizado la
-                                        escena en agrupaciones de objetos y se han diferenciado las partes de los
-                                        mismos.
-                                        <br><br>
-                                        Principios de agrupación de elementos:
-                                        <ul>
-                                            <li><strong>Proximidad:</strong> si se encuentran situados de manera cercana
-                                                y alejados del resto. </li>
-                                            <li><strong>Similitud:</strong> comparten características perceptuales
-                                                (color, tamaño, orientación, textura...). </li>
-                                            <li><strong>Destino común:</strong> se mueven en la misma dirección.</li>
-                                            <li><strong>Buena continuación:</strong> objetos vistos como continuaciones
-                                                de otro.</li>
-                                            <li><strong>Cierre:</strong> elementos que forman una figura cerrada. </li>
-                                            <li><strong>Sincronía:</strong> elementos visuales que ocurren al mismo
-                                                tiempo.</li>
-                                            <li><strong>Región común:</strong> objetos colocados dentro de una región
-                                                cerrada.</li>
-                                            <li><strong>Conexión entre elementos:</strong> objetos conectados por otros
-                                                elementos.</li>
-                                        </ul>
-                                        <br>
-                                        Por norma general cuántos más principios se apliquen coherentemente más
-                                        sensación de agrupamiento generarán. Sin embargo, hay que tener cuidado de no
-                                        usar principios que puedan parecer contrapuestos.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="card-header" id="heading2">
+                            <div class="card" id="organizacion-perceptual">
+                                <div class="card-header" id="heading9">
                                     <h5 class="mb-0">
                                         <button class="btn btn-link collapsed" data-toggle="collapse"
-                                            data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
-                                            <i class="flaticon-question"></i> Organización perceptual y la tarea del
-                                            usuario
+                                            data-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
+                                            <i class="flaticon-question"></i> Organización perceptual
                                         </button>
                                     </h5>
                                 </div>
-                                <div id="collapse2" class="collapse" aria-labelledby="heading2"
+                                <div id="collapse9" class="collapse" aria-labelledby="heading9"
                                     data-parent="#accordion">
                                     <div class="card-body">
-                                        La organización de los elementos puede facilitar o entorpecer el trabajo de un
-                                        usuario sobre la misma.
-                                        <br><br>
-                                        <strong>La organización debe estar supeditada a cómo el usuario lleve a cabo la
-                                            tarea.</strong>
+                                        <div class="card" id="organizacion-perceptual">
+                                            <div class="card-header" id="heading1">
+                                                <h5 class="mb-0">
+                                                    <button class="btn btn-link collapsed" data-toggle="collapse"
+                                                        data-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+                                                        <i class="flaticon-question"></i> de objetos y
+                                                        escenas
+                                                    </button>
+                                                </h5>
+                                            </div>
+                                            <div id="collapse1" class="collapse" aria-labelledby="heading1"
+                                                data-parent="#heading1">
+                                                <div class="card-body">
+                                                    Existe suficiente información acerca de los procesos psicológicos que subyacen a
+                                                    la percepción organizada lo que nos aporta unas herramientas para decidir la
+                                                    mejor distribución de los elementos de la interfaz. Es importante elegirla bien
+                                                    ya que la primera percepción se mantiene en el tiempo.
+            
+                                                    Palmer y Rock proponen el modelo de la siguiente imagen.
+                                                    <img src="img/percepcion-diagrama.png">
+                                                    <br> <br>
+                                                    Como resultado de dicho proceso se obtiene una imagen donde se ha organizado la
+                                                    escena en agrupaciones de objetos y se han diferenciado las partes de los
+                                                    mismos.
+                                                    <br><br>
+                                                    Principios de agrupación de elementos:
+                                                    <ul>
+                                                        <li><strong>Proximidad:</strong> si se encuentran situados de manera cercana
+                                                            y alejados del resto. </li>
+                                                        <li><strong>Similitud:</strong> comparten características perceptuales
+                                                            (color, tamaño, orientación, textura...). </li>
+                                                        <li><strong>Destino común:</strong> se mueven en la misma dirección.</li>
+                                                        <li><strong>Buena continuación:</strong> objetos vistos como continuaciones
+                                                            de otro.</li>
+                                                        <li><strong>Cierre:</strong> elementos que forman una figura cerrada. </li>
+                                                        <li><strong>Sincronía:</strong> elementos visuales que ocurren al mismo
+                                                            tiempo.</li>
+                                                        <li><strong>Región común:</strong> objetos colocados dentro de una región
+                                                            cerrada.</li>
+                                                        <li><strong>Conexión entre elementos:</strong> objetos conectados por otros
+                                                            elementos.</li>
+                                                    </ul>
+                                                    <br>
+                                                    Por norma general cuántos más principios se apliquen coherentemente más
+                                                    sensación de agrupamiento generarán. Sin embargo, hay que tener cuidado de no
+                                                    usar principios que puedan parecer contrapuestos.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-header" id="heading2">
+                                                <h5 class="mb-0">
+                                                    <button class="btn btn-link collapsed" data-toggle="collapse"
+                                                        data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                                                        <i class="flaticon-question"></i> y la tarea del
+                                                        usuario
+                                                    </button>
+                                                </h5>
+                                            </div>
+                                            <div id="collapse2" class="collapse" aria-labelledby="heading2"
+                                                data-parent="#heading2">
+                                                <div class="card-body">
+                                                    La organización de los elementos puede facilitar o entorpecer el trabajo de un
+                                                    usuario sobre la misma.
+                                                    <br><br>
+                                                    <strong>La organización debe estar supeditada a cómo el usuario lleve a cabo la
+                                                        tarea.</strong>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                            <div class="card">
+                            <div class="card" id="profundidad">
                                 <div class="card-header" id="heading3">
                                     <h5 class="mb-0">
                                         <button class="btn btn-link collapsed" data-toggle="collapse"
                                             data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
-                                            <i class="flaticon-question"></i> Percepción de la Profundidad
+                                            <i class="flaticon-question"></i> Profundidad
                                         </button>
                                     </h5>
                                 </div>
@@ -229,12 +255,12 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="card">
+                            <div class="card" id="reconocimiento-de-objetos">
                                 <div class="card-header" id="heading4">
                                     <h5 class="mb-0">
                                         <button class="btn btn-link collapsed" data-toggle="collapse"
                                             data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
-                                            <i class="flaticon-question"></i> Percepción y reconocimiento de objetos
+                                            <i class="flaticon-question"></i> Reconocimiento de objetos
                                         </button>
                                     </h5>
                                 </div>
@@ -281,12 +307,12 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="card">
+                            <div class="card" id="atencion">
                                 <div class="card-header" id="heading5">
                                     <h5 class="mb-0">
                                         <button class="btn btn-link collapsed" data-toggle="collapse"
                                             data-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
-                                            <i class="flaticon-question"></i> Percepción y atención
+                                            <i class="flaticon-question"></i> Atención
                                         </button>
                                     </h5>
                                 </div>
@@ -313,97 +339,354 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="card">
-                                <div class="card-header" id="heading6">
-                                    <h5 class="mb-0">
-                                        <button class="btn btn-link collapsed" data-toggle="collapse"
-                                            data-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
-                                            <i class="flaticon-question"></i> Conocimiento a través de las imágenes: el
-                                            uso de iconos
-                                        </button>
-                                    </h5>
-                                </div>
-                                <div id="collapse6" class="collapse" aria-labelledby="heading6"
-                                    data-parent="#accordion">
-                                    <div class="card-body">
-                                        Se puede acceder al conocimiento almacenado a través de imágenes.
-                                        <br><br>
-                                        Se ha demostrado que es mejor incluir sólo el icono que el icono y la palabra ya
-                                        que el proceso de codificación de la palabra ralentiza el acceso a la
-                                        información representada.
-                                        <br><br>
-                                        Recomendaciones para el uso de iconos:
-                                        <ul>
-                                            <li>Mínima diferencia entre el objeto real y el representado </li>
-                                            <li>Se deben colocar en la misma posición a lo largo de todas las pantallas
-                                            </li>
-                                            <li>Fácilmente diferenciables de otros </li>
-                                            <li>Evitar que tengan varias interpretaciones </li>
-                                        </ul>
-                                        <br>
-                                        En los casos que se quiera representar acciones complejas, la superioridad de la
-                                        imagen desaparece y se recomienda el uso de ambas.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="card-header" id="heading7">
-                                    <h5 class="mb-0">
-                                        <button class="btn btn-link collapsed" data-toggle="collapse"
-                                            data-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
-                                            <i class="flaticon-question"></i> Conocimiento de la función de los objetos:
-                                            las Affordances
-                                        </button>
-                                    </h5>
-                                </div>
-                                <div id="collapse7" class="collapse" aria-labelledby="heading7"
-                                    data-parent="#accordion">
-                                    <div class="card-body">
-                                        Al diseñarla se desea que los usuarios conozcan la funcionalidad de los
-                                        elementos incluidos. La forma clásica de percibir la función es:
-                                        <br><br>
-                                        <ol>
-                                            <li>Reconocer el objeto </li>
-                                            <li>Categorizarlo</li>
-                                            <li>Acceder al conocimiento de su función </li>
-                                        </ol>
-                                        <br>
-                                        Sin embargo, una forma más rápida son los affordances. Los affordances son las
-                                        funciones de un objeto que se perciben directamente de la imagen. Para maximizar
-                                        la efectividad de las affordances es necesario que se cumplan una serie de
-                                        requisitos:
-                                        <br><br>
-                                        <ul>
-                                            <li><strong>Forma funcional:</strong> correspondencia entre la forma del
-                                                objeto y su función debe ser lo más transparente posible. Por ejemplo,
-                                                un objeto para ser presionado debe dar la sensación de volumen sobre la
-                                                superficie.
 
-                                                Su función debe ser visible a primera vista y no emergente. </li>
-                                            <li><strong>Acción coherente:</strong> la acción consecuencia del
-                                                accionamiento del objeto debe ser coherente con su affordance para
-                                                facilitar el aprendizaje y uso. </li>
-                                            <li><strong>Relatividad del observador:</strong> se debe intentar que
-                                                susciten la misma función a toda la población que es logrado en gran
-                                                parte por el uso de estándares. </li>
-                                        </ul>
-                                        <br>
-                                        <strong>MUY RECOMENDABLE SEGUIR ESTÁNDARES PARA LOGRAR AFFORDANCE</strong>
+                            <div class="card" id="acceso-al-conocimiento">
+                                <div class="card-header" id="heading8">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-link collapsed" data-toggle="collapse"
+                                            data-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
+                                            <i class="flaticon-question"></i> Acceso al conocimiento
+                                        </button>
+                                    </h5>
+                                </div>
+                                <div id="collapse8" class="collapse" aria-labelledby="heading8"
+                                    data-parent="#accordion">
+                                    <div class="card-body">
+                                        <div class="card">
+                                            <div class="card-header" id="heading6">
+                                                <h5 class="mb-0">
+                                                    <button class="btn btn-link collapsed cardsHijas" data-toggle="collapse"
+                                                        data-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                                                        <i class="flaticon-question"></i> Conocimiento a través de las imágenes: el
+                                                        uso de iconos
+                                                    </button>
+                                                </h5>
+                                            </div>
+                                            <div id="collapse6" class="collapse" aria-labelledby="heading6"
+                                                data-parent="#heading6">
+                                                <div class="card-body">
+                                                    Se puede acceder al conocimiento almacenado a través de imágenes.
+                                                    <br><br>
+                                                    Se ha demostrado que es mejor incluir sólo el icono que el icono y la palabra ya
+                                                    que el proceso de codificación de la palabra ralentiza el acceso a la
+                                                    información representada.
+                                                    <br><br>
+                                                    Recomendaciones para el uso de iconos:
+                                                    <ul>
+                                                        <li>Mínima diferencia entre el objeto real y el representado </li>
+                                                        <li>Se deben colocar en la misma posición a lo largo de todas las pantallas
+                                                        </li>
+                                                        <li>Fácilmente diferenciables de otros </li>
+                                                        <li>Evitar que tengan varias interpretaciones </li>
+                                                    </ul>
+                                                    <br>
+                                                    En los casos que se quiera representar acciones complejas, la superioridad de la
+                                                    imagen desaparece y se recomienda el uso de ambas.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-header" id="heading7">
+                                                <h5 class="mb-0">
+                                                    <button class="btn btn-link collapsed cardsHijas" data-toggle="collapse"
+                                                        data-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+                                                        <i class="flaticon-question"></i> Conocimiento de la función de los objetos:
+                                                        las Affordances
+                                                    </button>
+                                                </h5>
+                                            </div>
+                                            <div id="collapse7" class="collapse" aria-labelledby="heading7"
+                                                data-parent="#heading7">
+                                                <div class="card-body">
+                                                    Al diseñarla se desea que los usuarios conozcan la funcionalidad de los
+                                                    elementos incluidos. La forma clásica de percibir la función es:
+                                                    <br><br>
+                                                    <ol>
+                                                        <li>Reconocer el objeto </li>
+                                                        <li>Categorizarlo</li>
+                                                        <li>Acceder al conocimiento de su función </li>
+                                                    </ol>
+                                                    <br>
+                                                    Sin embargo, una forma más rápida son los affordances. Los affordances son las
+                                                    funciones de un objeto que se perciben directamente de la imagen. Para maximizar
+                                                    la efectividad de las affordances es necesario que se cumplan una serie de
+                                                    requisitos:
+                                                    <br><br>
+                                                    <ul>
+                                                        <li><strong>Forma funcional:</strong> correspondencia entre la forma del
+                                                            objeto y su función debe ser lo más transparente posible. Por ejemplo,
+                                                            un objeto para ser presionado debe dar la sensación de volumen sobre la
+                                                            superficie.
+            
+                                                            Su función debe ser visible a primera vista y no emergente. </li>
+                                                        <li><strong>Acción coherente:</strong> la acción consecuencia del
+                                                            accionamiento del objeto debe ser coherente con su affordance para
+                                                            facilitar el aprendizaje y uso. </li>
+                                                        <li><strong>Relatividad del observador:</strong> se debe intentar que
+                                                            susciten la misma función a toda la población que es logrado en gran
+                                                            parte por el uso de estándares. </li>
+                                                    </ul>
+                                                    <br>
+                                                    <strong>MUY RECOMENDABLE SEGUIR ESTÁNDARES PARA LOGRAR AFFORDANCE</strong>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-5 col-lg-5">
+                <div class="col-xl-4 col-lg-4">
                     <div class="courses_sidebar">
                         <div class="video_thumb">
-                            <img src="img/sensacion.png" alt="">
-                            <a class="popup-video"
-                                href="https://public-media.interaction-design.org/tv/topic-definition-what-is-hci.webm">
+                            <img src="img/percepcion.jpg" alt="">
+                            <a class="popup-video" href="https://invidio.us/latest_version?id=-NpMxKdImKw&itag=22">
                                 <i class="fa fa-play"></i>
                             </a>
                         </div>
+                        <br>
+                        <div class="author_info" style="background-color: #fbf9ff;">
+                            <div class="blog_right_sidebar">                         
+                                <aside class="single_sidebar_widget tag_cloud_widget" style="background: inherit; margin-bottom: 0;">
+                                    <h4 class="widget_title">Tag Clouds</h4>
+                                    <ul class="list">
+                                        <li>
+                                            <a href="#" style="color: rgb(102, 102, 102)">IPO</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" style="color: rgb(102, 102, 102)">percepcion</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" style="color: rgb(102, 102, 102)">memoria</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" style="color: rgb(102, 102, 102)">sensacion</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" style="color: rgb(102, 102, 102)">arquitectura</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" style="color: rgb(102, 102, 102)">cognicion</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" style="color: rgb(102, 102, 102)">largo plazo</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" style="color: rgb(102, 102, 102)">operativa</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" style="color: rgb(102, 102, 102)">sensorial</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" style="color: rgb(102, 102, 102)">auditivo</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" style="color: rgb(102, 102, 102)">visual</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" style="color: rgb(102, 102, 102)">organización perceptual</a>
+                                        </li>
+                                    </ul>
+                                </aside>
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="our_courses" style="padding-top: 0;">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="section_title text-center mb-100">
+                        <h3>Reglas aplicadas a la UI</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-3 col-md-6 col-lg-6">
+                    <div class="single_course text-center">
+                        <div class="icon">
+                            <i class="flaticon-art-and-design"></i>
+                        </div>
+                        <h3>Regla 1</h3>
+                        <p>
+                            Se perciben como regiones conectadas o agrupadas aquellas áreas uniformes con respecto a una propiedad de la imagen
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-6 col-lg-6">
+                    <div class="single_course text-center">
+                        <div class="icon blue">
+                            <i class="flaticon-business-and-finance"></i>
+                        </div>
+                        <h3>Regla 2</h3>
+                        <p>
+                            La organización perceptual de la información debe estar supeditada a cómo el usuario lleve a cabo la tarea sobre la misma
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-6 col-lg-6">
+                    <div class="single_course text-center">
+                        <div class="icon">
+                            <i class="flaticon-premium"></i>
+                        </div>
+                        <h3>Regla 3</h3>
+                        <p>
+                            Para facilitar el reconocimiento de los objetos es necesario apoyarse en la profundidad de la escena, debido al carácter volumétrico de los geones.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-6 col-lg-6">
+                    <div class="single_course text-center">
+                        <div class="icon gradient">
+                            <i class="flaticon-crown"></i>
+                        </div>
+                        <h3>Regla 4</h3>
+                        <p>
+                            Situar la información más importante en áreas de alto contenido informativo ya que al resto  se suele prestar menor atención.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-3 col-md-6 col-lg-6">
+                    <div class="single_course text-center">
+                        <div class="icon">
+                            <i class="flaticon-art-and-design"></i>
+                        </div>
+                        <h3>Regla 5</h3>
+                        <p>
+                            No situar información importante en la zona superior dónde se suelen localizar los banners debido a que se ha demostrado la ceguera por banner.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-6 col-lg-6">
+                    <div class="single_course text-center">
+                        <div class="icon blue">
+                            <i class="flaticon-business-and-finance"></i>
+                        </div>
+                        <h3>Regla 6</h3>
+                        <p>
+                            Para facilitar la atención sobre un elemento este debe ser lo más diferente posible al resto de elementos junto a los que se sitúa.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-6 col-lg-6">
+                    <div class="single_course text-center">
+                        <div class="icon">
+                            <i class="flaticon-premium"></i>
+                        </div>
+                        <h3>Regla 7</h3>
+                        <p>
+                            Usar un icono sencillo permite acceder más rápido al conocimiento que tiene almacenado la memoria semántica. Situar el icono junto a un texto resulta contraproducente.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-6 col-lg-6">
+                    <div class="single_course text-center">
+                        <div class="icon gradient">
+                            <i class="flaticon-crown"></i>
+                        </div>
+                        <h3>Regla 8</h3>
+                        <p>
+                            Diferencia mínima entre el icono y el objeto real
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-3 col-md-6 col-lg-6">
+                    <div class="single_course text-center">
+                        <div class="icon">
+                            <i class="flaticon-art-and-design"></i>
+                        </div>
+                        <h3>Regla 9</h3>
+                        <p>
+                            Los iconos se deben presentar en la misma posición a lo largo de diversas pantallas
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-6 col-lg-6">
+                    <div class="single_course text-center">
+                        <div class="icon blue">
+                            <i class="flaticon-business-and-finance"></i>
+                        </div>
+                        <h3>Regla 10</h3>
+                        <p>
+                            Los iconos deben ser fácilmente discriminables y por tanto evitar los que tengan varias interpretaciones.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-6 col-lg-6">
+                    <div class="single_course text-center">
+                        <div class="icon">
+                            <i class="flaticon-premium"></i>
+                        </div>
+                        <h3>Regla 11</h3>
+                        <p>
+                            Para representar acciones complejas se recomienda usar iconos junto a un texto.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-6 col-lg-6">
+                    <div class="single_course text-center">
+                        <div class="icon gradient">
+                            <i class="flaticon-crown"></i>
+                        </div>
+                        <h3>Regla 12</h3>
+                        <p>
+                            Las funciones de un objeto deben ser percibidas directamente a partir de su imagen (affordances).
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-3 col-md-6 col-lg-6">
+                    <div class="single_course text-center">
+                        <div class="icon">
+                            <i class="flaticon-art-and-design"></i>
+                        </div>
+                        <h3>Regla 13</h3>
+                        <p>
+                            Correspondencia entre la forma del objeto y su utilidad.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-6 col-lg-6">
+                    <div class="single_course text-center">
+                        <div class="icon blue">
+                            <i class="flaticon-business-and-finance"></i>
+                        </div>
+                        <h3>Regla 14</h3>
+                        <p>
+                            Acción coherente con la forma de accionamiento del objeto
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-6 col-lg-6">
+                    <div class="single_course text-center">
+                        <div class="icon">
+                            <i class="flaticon-premium"></i>
+                        </div>
+                        <h3>Regla 15</h3>
+                        <p>
+                            Se debe intentar que la affordance suscite la misma función a toda la población.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-6 col-lg-6">
+                    <div class="single_course text-center">
+                        <div class="icon gradient">
+                            <i class="flaticon-crown"></i>
+                        </div>
+                        <h3>Regla 16</h3>
+                        <p>
+                            Usar estándares a la hora de seleccionar las affordances.
+                        </p>
                     </div>
                 </div>
             </div>

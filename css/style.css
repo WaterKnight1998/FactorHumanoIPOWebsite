@@ -2467,7 +2467,8 @@ h3 {
 
 /* line 44, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_faq.scss */
 .courses_details_info #accordion .card .card-body {
-  padding: 0 0 40px 76px;
+  padding: 0 40px 40px 76px;
+  text-align: justify;
 }
 
 @media (max-width: 767px) {

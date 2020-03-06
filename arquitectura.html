@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/slicknav.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/percepcion.css">
     <!-- <link rel="stylesheet" href="css/responsive.css"> -->
 </head>
 
@@ -86,144 +87,203 @@
     </header>
     <!-- header-end -->
 
-     <!-- bradcam_area_start -->
-     <div class="courses_details_banner">
-         <div class="container">
-             <div class="row">
-                 <div class="col-xl-6">
-                     <div class="course_text">
-                            <h3>El factor humano</h3>
-                                       
-                     </div>
-                 </div>
-             </div>
-         </div>
+    <!-- bradcam_area_start -->
+    <div class="courses_details_banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6">
+                    <div class="course_text">
+                        <h3>El factor humano</h3>
+
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <!-- bradcam_area_end -->
 
     <div class="courses_details_info">
         <div class="container">
             <div class="row">
-                <div class="col-xl-8 col-lg-8">
+                <div class="col-xl-7 col-lg-7">
                     <div class="single_courses">
                         <h3>Arquitectura cognitiva</h3>
-                        <p>La Psicología Cognitiva desde sus comienzos ha estado dominada por programas de
-                            investigación sobre aspectos parciales del procesamiento de la información. Se han
-                            propuesto modelos y realizado experimentos sobre sensación, percepción, memoria, etc. muchas veces limitados a ciertas tareas especialmente diseñadas para realizarlas en el laboratorio y que poco tenían que ver con la vida real.  </p>
-                            <br>                    
+                        <p>
+                            En IPO, al modelar la conducta de una persona interactuando con un ordenador es imposible separar los componentes cognitivos. Por ello, se han creado teorías más generales y capaces de hacer predicciones. 
+                        </p>
+                        <br>
                     </div>
                     <div class="outline_courses_info">
-                            <div id="accordion">
-                                    <div class="card">
-                                        <div class="card-header" id="headingTwo">
-                                            <h5 class="mb-0">
-                                                <button onclick="window.location.href='/Sistema-visual'" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                                    <i class="flaticon-question"></i> Sistema visual
-                                                </button>
-                                            </h5>
-                                        </div>                                        
-                                    </div>                                 
-                                         
+                        <div id="accordion">
+
+                            <div class="card" id="arquitectura">
+                                <div class="card-header" id="heading5">
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-link collapsed" data-toggle="collapse"
+                                            data-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                                            <i class="flaticon-question"></i> SOAR
+                                        </button>
+                                    </h5>
                                 </div>
+                                <div id="collapse5" class="collapse" aria-labelledby="heading5"
+                                    data-parent="#accordion">
+                                    <div class="card-body">
+                                        La idea central se SOAR es la regla de producción que consta de una condición y una acción. Si la condición se cumple en ese caso se llevará acabo la acción. La condición puede ser una configuración de estimulación determinada o un dato almacenado en Memoria Operativa. Las acciones pueden ser: respuesta motora o una operación mental. Las reglas de producción están almacenadas en Memoria a largo plazo. 
+                                        <br/><br/>
+                                        SOAR tiene una serie de conceptos fundamentales que son los siguientes: <br/><br/>
+                                        <ol>
+                                            <li>Un <strong>objetivo</strong> es una situación a la que se desea llegar. </li>
+                                            <li>Un <strong>estado</strong> es una estructura de datos que define una situación en el camino para alcanzar el objetivo. Se suele hablar de un estado inicial, estados intermedios y estado final que es el objetivo.</li>
+                                            <li>Un <strong>operador</strong> es una función que transforma un estado en otro. Es la acción que resulta de la aplicación de una regla.</li>
+                                            <li>El <strong>espacio del problema</strong> es el conjunto de estados y operadores que están disponibles para alcanzar el objetivo. </li>
+                                        </ol>
+                                        Las distintas memorias que define SOAR son: <br/><br/>
+                                        <ul>
+                                            <li><strong>Memoria de Trazos:</strong>  Almacena información que va siendo recuperada de la Memoria a Largo Plazo (MLP). Descubre patrones de reglas a introducir en MLP. </li>
+                                            <li><strong>Memoria Operativa / Operativa temporal:</strong> Almacena los datos que activan las condiciones de las reglas de producción (reglas “en uso” o “uso reciente”). Reconoce los patrones </li>
+                                            <li><strong>Memoria a Largo Plazo / Permanente / Reconocimiento: </strong>Almacena las reglas de producción. Almacena los patrones/condiciones. Puede considerarse como la unión de Memoria Declarativa y Memoria Procedimental ya que SOAR no hace distinción entre estas </li>
+                                            <li><strong>Memoria de Preferencias:</strong> contiene todas las reglas que se pueden aplicar al estado actual ordenadas por prioridad. </li>
+                                        </ul>
+                                        <br/>
+                                        Un <strong>impasse</strong> ocurre cuando el conocimiento almacenado en la Memoria Permanente es insuficiente para solucionar el problema. Cuando ocurre un impasse, porque no se pueden elegir entre varios objetos, SOAR crea un subobjetivo para resolver un impasse. La solución al impasse significa encontrar una acción que lo solucione. Entonces SOAR analiza cuales fueron las condiciones que llevaron al impasse y cuál es la acción que lo ha solucionado, y crea una nueva regla con esa condición y esa acción, y lo añade a la Memoria Permanente para que no sea necesario crear un nuevo subobjetivo cuando ocurra otra vez. 
+                                        <br/><br/>
+                                        <div class="card">
+                                            <div class="card-header" id="heading2">
+                                                <h5 class="mb-0">
+                                                    <button class="btn btn-link collapsed cardsHijas" data-toggle="collapse"
+                                                        data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                                                        <i class="flaticon-question"></i>GOAMS
+                                                    </button>
+                                                </h5>
+                                            </div>
+                                            <div id="collapse2" class="collapse" aria-labelledby="heading2"
+                                                data-parent="#heading2">
+                                                <div class="card-body">
+                                                    En él se analiza la tarea que un usuario lleva a cabo durante la interacción con una interfaz. Es una técnica de análisis de tareas en términos de reglas de producción que después son integradas en una arquitectura cognitiva teórica. 
+                                                    <br/><br/>
+                                                    Las letras que forman GOMS son las iniciales de Goals, Operators, Methods y Selection Rules. 
+                                                    <br/><br/>
+                                                    Se pueden definir como: <br/><br/>
+                                                    <ul>
+                                                        <li><strong>Objetivos:</strong> define lo que el usuario quiere hacer usando el ordenador, se puede subdividir en objetivos. </li>
+                                                        <li><strong>Operadores: </strong>acciones que el programa permite realizar.</li>
+                                                        <li><strong>Métodos:</strong> secuencias de subobjetivos y operadores que el usuario aprende. </li>
+                                                        <li><strong>Reglas de selección:</strong> se encargan de decidir cuál es la secuencia más apropiada, en los casos que haya varias opciones. </li>
+                                                    </ul>
+                                                    <br/>Con GOMS se observa como un objetivo se puede dividir en subtareas y evaluar las propiedades que ofrece la interfaz para lograrlos. Especificando el número de subobjetivos y midiendo los tiempos que requiere cada método se pueden tomar decisiones que faciliten la interacción. La utilidad real se observa al analizar interfaces y tareas complejas. 
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
                     </div>
                 </div>
-                <div class="col-xl-4 col-lg-4">
+                <div class="col-xl-5 col-lg-5">
                     <div class="courses_sidebar">
                         <div class="video_thumb">
-                            <img src="img/latest_blog/video.png" alt="">
-                            <a class="popup-video" href="https://www.youtube.com/watch?v=AjgD3CvWzS0">
+                            <img src="https://www.eletimes.com/wp-content/uploads/2019/11/AI-pic.jpg" alt="">
+                            <a class="popup-video" href="https://www.youtube.com/watch?v=rel2y2hMjUY">
                                 <i class="fa fa-play"></i>
                             </a>
-                        </div>                                           
+                        </div>
+                        <br>
+                        <div class="author_info" style="background-color: #fbf9ff;">
+                            <div class="blog_right_sidebar">                         
+                                <aside class="single_sidebar_widget tag_cloud_widget" style="background: inherit; margin-bottom: 0;">
+                                    <h4 class="widget_title">Tag Clouds</h4>
+                                    <ul class="list">
+                                        <li>
+                                            <a href="#" style="color: rgb(102, 102, 102)">IPO</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" style="color: rgb(102, 102, 102)">percepcion</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" style="color: rgb(102, 102, 102)">memoria</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" style="color: rgb(102, 102, 102)">sensacion</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" style="color: rgb(102, 102, 102)">arquitectura</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" style="color: rgb(102, 102, 102)">cognicion</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" style="color: rgb(102, 102, 102)">largo plazo</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" style="color: rgb(102, 102, 102)">operativa</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" style="color: rgb(102, 102, 102)">sensorial</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" style="color: rgb(102, 102, 102)">auditivo</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" style="color: rgb(102, 102, 102)">visual</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" style="color: rgb(102, 102, 102)">organización perceptual</a>
+                                        </li>
+                                    </ul>
+                                </aside>
+                            </div>  
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
     
+
     <!-- footer -->
     <footer class="footer footer_bg_1">
         <div class="footer_top">
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-4 col-md-6 col-lg-4">
+                    <div class="col-xl-6 col-md-6 col-lg-6">
                         <div class="footer_widget">
                             <div class="footer_logo">
                                 <a href="#">
-                                    <img src="img/logo.png" alt="">
+                                    <img src="img/logo.png" height="70" alt="">
                                 </a>
                             </div>
-                            <p>
-                                Firmament morning sixth subdue darkness creeping gathered divide our let god moving.
-                                Moving in fourth air night bring upon it beast let you dominion likeness open place day
-                                great.
-                            </p>
-                            <div class="socail_links">
-                                <ul>
-                                    <li>
-                                        <a href="#">
-                                            <i class="ti-facebook"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="ti-twitter-alt"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="fa fa-instagram"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#">
-                                            <i class="fa fa-youtube-play"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-
                         </div>
                     </div>
-                    <div class="col-xl-2 offset-xl-1 col-md-6 col-lg-3">
-                        <div class="footer_widget">
-                            <h3 class="footer_title">
-                                Courses
-                            </h3>
+                    <div class="col-xl-6 col-md-6 col-lg-6">
+                        <p style="text-align: justify;">
+                            El estudio sobre cómo diseñan, implementan y usan los sistemas informáticos interactivos las personas, y la manera que influyen los ordenadores en las personas, las organizaciones y la sociedad.
+                        </p>
+                        <div class="socail_links float-right">
                             <ul>
-                                <li><a href="#">Wordpress</a></li>
-                                <li><a href="#"> Photoshop</a></li>
-                                <li><a href="#">Illustrator</a></li>
-                                <li><a href="#">Adobe XD</a></li>
-                                <li><a href="#">UI/UX</a></li>
+                                <li>
+                                    <a href="#">
+                                        <i class="ti-facebook"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="ti-twitter-alt"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-youtube-play"></i>
+                                    </a>
+                                </li>
                             </ul>
-
-                        </div>
-                    </div>
-                    <div class="col-xl-2 col-md-6 col-lg-2">
-                        <div class="footer_widget">
-                            <h3 class="footer_title">
-                                Resourches
-                            </h3>
-                            <ul>
-                                <li><a href="#">Free Adobe XD</a></li>
-                                <li><a href="#">Tutorials</a></li>
-                                <li><a href="#">About</a></li>
-                                <li><a href="#"> About</a></li>
-                                <li><a href="#"> Contact</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-md-6 col-lg-3">
-                        <div class="footer_widget">
-                            <h3 class="footer_title">
-                                Address
-                            </h3>
-                            <p>
-                                200, D-block, Green lane USA <br>
-                                +10 367 467 8934 <br>
-                                edumark@contact.com
-                            </p>
                         </div>
                     </div>
                 </div>

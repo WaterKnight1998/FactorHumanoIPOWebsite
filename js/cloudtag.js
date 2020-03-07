@@ -25,4 +25,6 @@ var word_arrays = [
 
 $('#wordCloud').jQCloud(word_arrays,{
   width: 500,
-  height: 350});    
+  height: 350,
+  autoResize: true
+});    

@@ -8,7 +8,7 @@ function opencard(){
         }else if(aux.length == 2){
             document.getElementById(aux[0]).getElementsByTagName("button")[0].click();
             document.getElementById(aux[1]).getElementsByTagName("button")[0].click();
-            document.getElementById(aux[1]).scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
+            document.getElementById(aux[1]).scrollIntoView(true);
         }  
     }
 }

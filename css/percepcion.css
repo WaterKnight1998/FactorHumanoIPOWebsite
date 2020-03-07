@@ -1,3 +1,17 @@
-.cardsHijas{
+.cardsHijas {
     font-size: 15px !important;
+}
+
+@media (max-width: 767px) {
+  /* line 27, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_faq.scss */
+  .cardsHijas {
+    font-size: 10px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 27, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_faq.scss */
+  .cardsHijas {
+    font-size: 15px !important;
+  }
 }

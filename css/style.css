@@ -807,6 +807,7 @@ h3 {
 
 /* line 1, C:/Users/SPN Graphics/Desktop/CL September/Edu mark/207 Education/HTML/scss/_header.scss */
 .header-area {
+  overflow: hidden;
   position: absolute;
   left: 0;
   right: 0;

@@ -248,9 +248,10 @@
     
       {text: "Percepción", weight: 4788, html: {class: "category credit"}},
       
-      {text: "Agrupación", weight: 3000, html: {class: "category absae"}},
-      {text: "Atención", weight: 3000, html: {class: "category absae"}},
+      {text: "Organización Perceptual", weight: 3000, html: {class: "category absae"}},
       {text: "Profundidad", weight: 3000, html: {class: "category absae"}},
+      {text: "Reconocimiento de objetos", weight: 3000, html: {class: "category absae"}},
+      {text: "Atención", weight: 3000, html: {class: "category absae"}},
       {text: "Acceso al conocimiento", weight: 3000, html: {class: "category fees"}},
       {text: "Iconos", weight: 2700, html: {class: "category fees"}},
       {text: "Affordance", weight: 2700, html: {class: "category fees"}}
